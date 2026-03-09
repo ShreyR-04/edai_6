@@ -1,0 +1,126 @@
+{
+  "project_identity": {
+    "name": "RoboCurriculum AI",
+    "theme_mode": "light",
+    "design_archetype": "The Modern Laboratory",
+    "emotional_tone": "Precise, Academic, Innovative, Structured",
+    "core_philosophy": "Digital precision meets physical engineering. The interface should feel like a high-end cleanroom laboratory."
+  },
+  "typography": {
+    "font_family_headings": "Outfit, sans-serif",
+    "font_family_body": "Inter, sans-serif",
+    "font_family_code": "JetBrains Mono, monospace",
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-medium",
+      "body": "text-base leading-relaxed text-slate-600",
+      "small": "text-sm font-medium text-slate-500 uppercase tracking-widest"
+    }
+  },
+  "colors": {
+    "primary": {
+      "name": "Academic Blue",
+      "hex": "#002FA7",
+      "tailwind": "bg-[#002FA7] text-white hover:bg-[#002FA7]/90"
+    },
+    "secondary": {
+      "name": "Safety Orange",
+      "hex": "#F97316",
+      "tailwind": "bg-orange-500 text-white hover:bg-orange-600"
+    },
+    "background": {
+      "main": "#F8FAFC",
+      "card": "#FFFFFF",
+      "tailwind_bg": "bg-slate-50"
+    },
+    "text": {
+      "primary": "#0F172A",
+      "secondary": "#64748B",
+      "tailwind_primary": "text-slate-900",
+      "tailwind_secondary": "text-slate-500"
+    },
+    "accents": {
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "info": "#3B82F6"
+    }
+  },
+  "visual_enhancers": {
+    "grid_background": "bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]",
+    "glass_effect": "bg-white/70 backdrop-blur-xl border-b border-white/20",
+    "card_style": "bg-white border border-slate-200 shadow-sm hover:shadow-md transition-all duration-200 rounded-xl",
+    "border_tracing": "Use a subtle animated gradient border for active states or premium features.",
+    "shadows": {
+      "soft": "shadow-[0_2px_8px_rgba(0,0,0,0.04)]",
+      "hover": "shadow-[0_8px_24px_rgba(0,0,0,0.08)]"
+    }
+  },
+  "layout_strategy": {
+    "landing_page": {
+      "grid_mode": "Bento Grid Mode A (Asymmetric)",
+      "hero_section": "Split view: Left text, Right 3D interactive or Hero Image.",
+      "features_section": "3-column bento grid with 'Circuit Tracing' borders."
+    },
+    "dashboard": {
+      "grid_mode": "Bento Grid Mode B (High Density)",
+      "spacing": "Gap-4 or Gap-6. Compact density.",
+      "navigation": "Sidebar for Teachers, Topbar for Students (to maximize workspace)."
+    }
+  },
+  "components_usage": {
+    "buttons": {
+      "primary": "rounded-md px-6 py-2.5 font-medium shadow-sm transition-all active:scale-95",
+      "secondary": "rounded-md px-6 py-2.5 font-medium border border-slate-200 bg-white hover:bg-slate-50 text-slate-900"
+    },
+    "cards": {
+      "default": "p-6 rounded-xl border border-slate-200 bg-white",
+      "interactive": "group relative overflow-hidden p-6 rounded-xl border border-slate-200 bg-white hover:border-blue-500/50 transition-colors"
+    },
+    "inputs": {
+      "style": "h-11 rounded-md border-slate-200 bg-white focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500"
+    }
+  },
+  "media": {
+    "image_urls": {
+      "hero_coding": "https://images.unsplash.com/photo-1758611971095-87f590f8c4ed?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwzfHxzdHVkZW50JTIwY29kaW5nJTIwb24lMjBsYXB0b3AlMjBzY3JlZW58ZW58MHx8fHwxNzczMDM0MDEzfDA&ixlib=rb-4.1.0&q=85",
+      "circuit_texture": "https://images.unsplash.com/photo-1766596796538-75b67ff9109c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHw0fHxlbGVjdHJvbmljJTIwY2lyY3VpdCUyMGJvYXJkJTIwbWFjcm98ZW58MHx8fHwxNzczMDM0MDEyfDA&ixlib=rb-4.1.0&q=85",
+      "student_learning": "https://images.unsplash.com/photo-1759884248009-92c5e957708e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAxODF8MHwxfHNlYXJjaHwxfHxzdHVkZW50JTIwY29kaW5nJTIwb24lMjBsYXB0b3AlMjBzY3JlZW58ZW58MHx8fHwxNzczMDM0MDEyfDA&ixlib=rb-4.1.0&q=85",
+      "diverse_students": [
+        "https://images.unsplash.com/photo-1708364171781-68810d2adb94?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwyfHxkaXZlcnNlJTIwc3R1ZGVudCUyMHBvcnRyYWl0cyUyMHNtaWxpbmd8ZW58MHx8fHwxNzczMDM0MDAxfDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1629121699638-976764fb4c8c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwzfHxkaXZlcnNlJTIwc3R1ZGVudCUyMHBvcnRyYWl0cyUyMHNtaWxpbmd8ZW58MHx8fHwxNzczMDM0MDAxfDA&ixlib=rb-4.1.0&q=85"
+      ],
+      "electronics_detail": "https://images.unsplash.com/photo-1766203551890-2664b619042b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA2MjJ8MHwxfHNlYXJjaHwyfHxlbGVjdHJvbmljJTIwY2lyY3VpdCUyMGJvYXJkJTIwbWFjcm98ZW58MHx8fHwxNzczMDM0MDEyfDA&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "3d_strategy": {
+    "library": "react-three-fiber",
+    "usage": "Use a simple rotating geometric robot arm or floating abstract tech shapes (cubes/spheres with wireframes) in the Hero section.",
+    "fallback": "If 3D is too complex, use the 'circuit_texture' image with a slow pan animation."
+  },
+  "charts_and_data": {
+    "library": "recharts",
+    "style": "Minimalist. Remove grid lines. Use tooltips with heavy shadows. Colors should match the palette (Blue for progress, Orange for alerts).",
+    "components": "AreaChart for progress, BarChart for comparisons, RadialBar for skills."
+  },
+  "accessibility_rules": {
+    "contrast": "Ensure text-slate-500 is only used for non-essential text. Use text-slate-700 for readable content.",
+    "focus_states": "Visible focus rings (ring-2 ring-blue-500) are mandatory.",
+    "reduced_motion": "Respect 'prefers-reduced-motion'."
+  },
+  "instructions_to_main_agent": [
+    "Install 'lucide-react', 'recharts', 'framer-motion', 'clsx', 'tailwind-merge' if not present.",
+    "Create a 'Layout' component that applies the background grid pattern globally.",
+    "Use 'Outfit' font for all Headings to give it a tech feel.",
+    "Ensure the Dashboard is dense but readable (Bento Box style).",
+    "For the Coding Task page, use a split-pane layout (Instructions Left, Code Editor Right, Output Bottom).",
+    "Add 'data-testid' to all interactive elements."
+  ],
+  "universal_guidelines": {
+    "avoid_slop": "Do not use generic centered layouts. Use asymmetry.",
+    "micro_interactions": "Buttons should scale down slightly on click (active:scale-95). Inputs should glow on focus.",
+    "glassmorphism": "Use backdrop-blur-xl for sticky headers.",
+    "toast_notifications": "Use 'sonner' for all alerts."
+  }
+}
