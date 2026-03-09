@@ -162,11 +162,7 @@ export default function LandingPage() {
               </button>
             </form>
 
-            <div className="mt-4 pt-4 border-t border-slate-100">
-              <p className="text-xs text-slate-400 text-center">
-                Demo: teacher@demo.com / demo123 &nbsp;|&nbsp; alice@demo.com / demo123
-              </p>
-            </div>
+            <div className="mt-2" />
           </div>
         </div>
       </div>
